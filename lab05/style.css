@@ -3,7 +3,7 @@ body{
     width: 800px;
 }
 h1{
-    font-style:b;
+    font-weight:bold;
     color: red;
 
 }
