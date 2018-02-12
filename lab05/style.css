@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    width: 800px;
+}
+h1{
+    font-style: bold;
+    color: red;
+
+}
+h2{
+    color:blue;
+}
+h3{
+    color:green;
+}
+
+p{
+    color: gold;
+}
+
+figure {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 600px;
+}
+
+figcaption {
+   color:  gray;
+   font-style: italic;
+}
+
+a {
+    color: red;
+    text-align: center;
+}
