@@ -1,0 +1,49 @@
+.card {
+    width: 200px;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+    vertical-align: top;
+}
+
+.card img {
+    width: 100%;
+    }
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#pokemon1 {
+    background-color: goldenrod;
+}
+
+#pokemon2 {
+    background-color: lightblue;
+}
+
+#pokemon3 {
+    background-color: goldenrod;
+}
+
+#pokemon4 {
+    background-color: lightgreen;
+}
+
+#pokemon5 {
+    background-color: gray;
+}
+
+#pokemon6 {
+    background-color: lightslategray;
+}
+
+.favorite {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: red;
+}

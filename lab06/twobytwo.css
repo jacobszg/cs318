@@ -1,0 +1,11 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    display: inline-block;
+}
+#highlighted {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}

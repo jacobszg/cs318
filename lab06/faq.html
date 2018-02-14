@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FAQ
+        </title>
+        <link rel="stylesheet" type="text/css" href="faq.css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet" href="faq.css">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet" href="faq.css">
+    </head>
+    <body>
+            <h3>1. Can I run SMART locally?</h3>
+            <p class="answer">SMART is composed of several different components. If you just want the basic searching functionality (not the web server) you can sign a license agreement, and get our set of Hidden Markov Models, alignments and thresholds. The license is free to academics, but not commercial users. For further details on the academic license, visit SMART page at EMBLEM.
+            
+            If you are a commerical user, please contact biobyte solutions GmbH. They provide the commercial version of SMART, which can be completely customized based on your requirements and intergrated into your exising framework. You can also contact biobyte solutions if you need help analyzing large datasets or need general bioinformatics consulting.
+            
+            Alternatively, the set of models is available via the InterPro consortium, although the InterProScan 
+            software does not implement thresholds in the same way as SMART, leading to some loss of sensitivity.</p>
+            
+           <h3> 2. Is there a batch SMART / how do I search a large number of sequences?</h3>
+           <p class="answer">You can use our batch access script to retreive multiple sequences from the database. It will work only for sequences or IDs which we have in the database.
+            
+            For other sequences, your best bet would be to use a script to submit the sequences one by one to the SMART server. An example, ready to run script written in Perl can be downloaded here.
+            
+            To make life easier for script users, show_motifs.pl has a special option (TEXTONLY=1) which will output results in an easy to
+             parse, text-only format. You will still need to get your job id first, and use job_status.pl to fetch the results.</p>
+            
+            <h3>3. I'm looking for a phosphorylation/glycosylation/some-other-tiny-motif in my sequence. Can I use SMART for this?</h3>
+            <p class="answer">The focus of SMART is to search for evolutionarily conserved protein domains rather than small sites of post-translational modification.
+                 ELM would be a good place to start looking for small motifs found in non-homologous contexts.</p>
+            
+            <h3>4. I'm curious why SMART appears to predict mostly regulatory domains and not enzymes with, say, metabolic roles?</h3>
+                <p class="answer">This is because at the onset of SMART, we deliberately chose to tackle those domains that were most difficult to detect
+                     and annotate using database searching methods. Regulatory domains are, in the main, shorter and less well conserved, whereas enzymes
+                      are mostly longer and have better amino acid conservation, particularly in active site regions. If you wish to predict enzymatic domains
+                       you are advised to click-in the Pfam button, allowing searches of the Pfam HMM set.</p>
+            
+            <h3>5. Why can't I find domain X,Y or Z in my sequence?</h3>
+            <p class="answer"> If you send the sequence, we might be able to find out why.</p>
+    </body>
+</html>
