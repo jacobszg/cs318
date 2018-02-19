@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+div {
+    display: inline-block;
+}
+
+.stamp {    
+    border-color: lightgreen;
+    border-width: 4px;
+    border-style: dashed;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+
+#Brazil {
+background-image: url(brazil_flag.gif), url(brazil_map.jpg);
+background-position: top 0 right 0, center;
+background-size: 33% 20%, auto 300px;
+background-repeat: no-repeat;
+}
+
+#Iran {
+    background-image: url(iran_flag.gif), url(iran_map.jpg);
+    background-position: top 0 right 0, center;
+    background-size: 33% 20%, auto 300px;
+    background-repeat: no-repeat;
+}
+
+#Germany {
+    background-image: url(germany_flag.gif), url(germany_map.jpg);
+    background-position: top 0 right 0, center;
+    background-size: 33% 20%, auto 300px;
+    background-repeat: no-repeat;
+}
+
+ #Norway {
+     background-image: url(norway_flag.gif), url(norway_map.jpg);
+     background-position: top 0 right 0, center;
+    background-size: 33% 20%, auto 300px;
+    background-repeat: no-repeat;
+}

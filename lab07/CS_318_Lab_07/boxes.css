@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+  }
+  
+  .outerbox {
+    margin: 10px;
+    background-color: goldenrod;
+    display: inline-block;
+  }
+  
+  .innerbox {
+    display: inline-block;
+    background-image: linear-gradient(salmon, salmon), linear-gradient(#1E90FF, #1E90FF);
+    background-clip: content-box, padding-box;
+  }
+  
+  #box0 {
+    padding: 5px;
+    border-style: dotted;
+    border-width: 4px;
+    margin: 12px;
+  }
+
+  #box1 {
+    padding: 5px;
+    border-style: dotted;
+    border-width: 4px;
+  }
+
+  #box2 {
+    width: 250px;
+    border-style: solid none;
+    border-width: 1px;
+    margin: 12px;
+    width: 300px;   
+  }
+
+  #box3 {
+    padding: 15px;
+    margin: 6px 12px;
+    width: 50px;
+  }
