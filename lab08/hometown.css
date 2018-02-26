@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, lightblue, darkblue)
+}
+
+header {
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    
+}
+nav {
+    text-align: center;
+    margin: 0;
+    padding: 7px;
+}
+
+#box {
+    background-color: whitesmoke;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+}
+
+main img {
+    width: 100%
+}
+
+#sub {
+    text-align: right;
+    padding-right: 10px;
+}
+footer{
+    font-style: italic;
+    text-align: right;
+}
