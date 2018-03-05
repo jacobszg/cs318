@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#panel {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.button {
+    position: fixed;
+    top: 50%; 
+    width: 25px;
+    height: 25px;
+    cursor: pointer;   
+}
+
+#right {
+    left: 5px;
+}
+
+#left {
+    right: 5px;
+}

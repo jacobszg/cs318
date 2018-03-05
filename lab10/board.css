@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(cork.jpg);
+}
+
+.photo {
+    background-color: white;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    box-shadow: -5px 5px gray;
+    display: inline-block;      
+}
+
+.pin {
+    position: absolute;
+    width: 50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image {
+    max-width: 90%;
+    max-height: 80%;
+    min-height: 80%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    object-fit: cover;
+    }
+
+.label {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    font-family: Marker;
+    font-size: 18pt;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Marker;
+    src: url(PermanentMarker.ttf);
+  }
+
+  #hyena {
+      top:20px;
+      left:15px;
+      transform: rotate(-5deg);
+  }
+
+  #liger {
+    top:50px;
+    left: 70px;
+    transform: rotate(5deg);
+}
+
+#platypus {
+    top:20px;
+    left: 150px;
+    transform: rotate(-3deg);
+}
