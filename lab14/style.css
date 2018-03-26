@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    
+}
+body{
+    min-width:850px;
+}
+h1{
+    position: relative;
+    padding-top: 60px;
+    text-align: center;
+    margin:auto;
+    font-size:50px; 
+    clear: both;
+}
+
+#first {
+    background-image: url(space1.jpg);
+}
+
+#second {
+    background-image: url(space2.jpg);
+}
+
+#third {
+    background-image: url(space3.jfif);     
+}
+
+#fourth {
+    background-image: url(the_martian.jpg);     
+}
+
+#fifth {
+    background-image: url(jupiter_moons.jpg);     
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16pt;
+}
+
+#map {
+    display: inline-block;
+    margin:auto;
+    margin-right:250px;
+    margin-top:50px; 
+}
+#mapText{
+   display: inline-block;
+   margin:auto;
+   margin-left:250px; 
+}
+.box{
+
+  width: 650px;
+ 
+  margin:auto;
+  padding-bottom: 50px;
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.342), rgba(0,0,255,0.5)); 
+}
