@@ -26,7 +26,7 @@ nav{
 
     border-color: rgba(233, 25, 25, 0.281);  
     border-radius: 20px;
-    box-shadow: 0 0 60px rgba(221, 200, 6, 0.712);
+    box-shadow: 0 0 80px rgba(221, 200, 6, 0.9);
 }
 #p_7{
     margin-bottom: 400px;
@@ -34,9 +34,12 @@ nav{
 footer{
     position: fixed;
     bottom:0;
-  
+    background-image: url("http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png");
+    background-size: contain;
+    width: 100%
 }
 footer img{
     height: 40%;
     width: 100%;
+    
 }
