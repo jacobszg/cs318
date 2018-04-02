@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width:100px;
+}
+table{
+    
+    
+        border-collapse: collapse;
+        border-spacing: 10px;
+    
+}
+td{
+    text-align: center;
+    width: 150px;
+    border: 1px solid burlywood;
+}
+li{
+    text-align: left;
+}
+th{
+    font-size: 27pt;
+    padding: 8px;
+}

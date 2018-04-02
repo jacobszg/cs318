@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+#free {
+    background-color: lightblue;
+}
+
+table {
+    
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+td{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;    
+}
+
+td:hover {
+    background-color: yellow;
+}
+
