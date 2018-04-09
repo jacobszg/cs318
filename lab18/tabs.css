@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+#parent{
+    position: relative;
+    display: inline-block;
+}
+.tab{
+    display: inline-block;
+    background-color: burlywood;
+    width:70px;
+    padding:10px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    outline: none;
+}
+.tab:focus{
+    background-color: chocolate;
+}
+.panel{
+    position: absolute;
+    background-color: chocolate;
+    display: none;
+    width:100%
+}
+#panel0{
+    background-color: burlywood;
+    display: block;
+}
+#tab_C:focus ~ #panel3 {
+    display: block;
+}
+#tab_B:focus ~ #panel2 {
+    display: block;
+}
+#tab_A:focus ~ #panel1 {
+    display: block;
+}
