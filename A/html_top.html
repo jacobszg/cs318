@@ -1,0 +1,47 @@
+<!-- START of html_top file -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BMBR | <?php echo $page_title?></title>
+    <link rel="stylesheet" type="text/css" href="uwec_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus|Marcellus+SC" rel="stylesheet">
+	
+</head>
+<body>
+    <header>
+        <h1 id="header_site_name">BMB Research</h1>
+
+        <div class="peekaboo_nav">
+            <div class="hamburger_icon" onclick="change_toggle(this); drop_toggle();">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="peekaboo_nav_list" class="peekaboo_content">
+                <a href="bmbr_home.php">Home</a>
+                <a href="bmbr_events.php">Events</a>
+                <a href="bmbr_professors.php">Professors</a>
+                <a href="bmbr_researcher_hub.php">Researcher Hub</a>
+                <a href="bmbr_faq.php">FAQ</a>
+            </div>
+        </div>
+        <nav id="wide_nav" >
+            <?php include_once "Scripts/script_you_are_here.php"; ?>
+        </nav>
+        <h4 class="header_research_list">Biochemistry - Molecular Biology - Bioinformatics - Immunology - Genetics</h4>
+    </header>
+    <div class="spacer" id="top_start">
+        &nbsp;
+    </div>
+	<div class="banner" id="<?php echo $banner_id?>"><!-- The Banner picture is set in the CSS file -->
+        <div class="quote_box"> &nbsp; </div>
+        <div class="quote">
+            <?php echo $banner_writing?>
+        </div>
+    </div>
+	
+	<!-- END of html_top file -->
+	
+	

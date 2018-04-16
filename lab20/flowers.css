@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+#flowerbed {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    position: relative;
+    width: 129px;
+    height: 129px;
+    float: left;
+    margin: 10px;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    z-index: 1;
+}
+
+img:nth-child(4n+1) {
+    clear: both;
+}
+
+#flowerbed:hover img {
+    opacity: 0.1;
+}
+
+#flowerbed img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(180deg);
+    z-index: 2;
+}
+
+a {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
