@@ -1,0 +1,103 @@
+div id="hub">
+        <div class="tab" id="tab_A" tabindex="0">
+            Bulletin Board
+        </div>
+        <div class="tab" id="tab_B" tabindex="0">
+            Calendar
+        </div>
+        <div class="tab" id="tab_C" tabindex="0">
+            Equipment
+        </div>
+        <div class="tab" id="tab_D" tabindex="0">
+            Procedures
+        </div>
+        <div class="tab" id="tab_E" tabindex="0">
+            Downloads
+        </div>
+		
+		<div class="panel" id="panel0">
+            <h1>Hello Resarcher!</h1>
+        </div>
+		
+        <div class="panel" id="panel1">
+            <h1>Bullin Board</h1>
+        </div>
+        <div class="panel" id="panel2">
+            <h1>BMBR Calendar</h1>
+            <iframe src="https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=biololgy.research%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FChicago" style="border-width:0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="panel" id="panel3">
+            Panel 3
+            <p>This is my List</p>
+            <ul>
+                <li>Item x</li>
+                <li>Item y</li>
+                <li>Item z</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+#hub{
+    position: relative;
+    left:10%;
+    margin-top: 25px;
+    display: inline-block;
+}
+.tab{
+    display: inline-block;
+    padding:10px;
+    margin:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16pt;
+    border-radius: 8px;
+	background-image: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+    color: var(--main-color);
+    box-shadow: -3px 3px 10px var(--accent-color);
+}
+.tab:hover{
+	background-image: linear-gradient(to right, var(--accent-color),var(--accent-color),var(--accent-color), var(--secondary-color));
+}
+.tab:focus{
+    background-image: linear-gradient(to right, var(--accent-color),var(--main-color),var(--main-color));
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: none;
+	color:var(--secondary-color);
+}
+
+.panel{
+	background-color:var(--main-color);
+    position: relative;
+    display: none;
+    width:100%
+}
+#panel0{
+	position:absolute;
+    display: block;
+}
+#tab_A:focus ~ #panel1 {
+    display: block;
+}
+#tab_B:focus ~ #panel2 {
+    display: block;
+}
+#tab_C:focus ~ #panel3{
+    display: block;
+}
+#tab_D:focus ~ #panel4 {
+    display: block;
+}
+#tab_E:focus ~ #panel5 {
+    display: block;
+}
+
+
+
+
+
+

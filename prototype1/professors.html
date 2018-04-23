@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BMBR|Professors</title>
+    <link rel="stylesheet" type="text/css" href="styleUWEC.css">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus|Marcellus+SC" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <h1 id="header_site_name">BMB Research</h1>
+
+        <div class="peekaboo_nav">
+            <div class="hamburger_icon" onclick="change_toggle(this); drop_toggle();">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="peekaboo_nav_list" class="peekaboo_content">
+                <a href="home.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="professors.html">Professors</a>
+                <a href="researcher_hub.html">Researcher Hub</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+        </div>
+        <nav id="wide_nav">
+            <a href="home.html">
+                Home
+            </a>
+            <a href="events.html">Events</a>
+            <a href="professors.html">
+                <span id="you_are_here">Professors</span>
+            </a>
+            <a href="researcher_hub.html">Researcher Hub</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
+        <h4 class="header_research_list">Biochemistry - Molecular Biology - Bioinformatics - Immunology - Genetics</h4>
+        <!-- <div id="powerOfAnd_logo">
+            <img src="/Images/poa.gif" alt="The Power of [AND]">
+        </div> -->
+    </header>
+    <div class="spacer" id="top_start">
+        &nbsp;
+    </div>
+    <div class="banner" id="professors_banner">
+        <div class="quote_box"> &nbsp; </div>
+        <div class="quote">
+            <p>Professors</p>
+            <!-- <p class="quoted_person">-Robert A. Heinlein</p> -->
+        </div>
+    </div>
+    <main>
+        <div id="to_top_icon">
+            <a href="#top_start">
+                <img src="Images/arrow-up.png" alt="up_icon">
+            </a>
+        </div>
+        <h1 class="main_title">Professors</h1>
+
+        <div class="prof_selector_bar">
+            
+            <nav>
+                <ul>
+                    <li class="prof_selector_item">
+                        Dr. Julie Anderson</li>
+                    <li class="prof_selector_item">
+                        Dr. Derek Gingerich</li>
+                    <li class="prof_selector_item">
+                        Dr. Julie Anderson</li>
+                    <li class="prof_selector_item">
+                        Dr. Derek Gingerich</li>
+                    <li class="prof_selector_item">
+                        Dr. Julie Anderson</li>
+                </ul>
+            </nav>
+            
+            <div id="selector_bar_toggle">
+                <img src="Images/arrow-side.png" alt="toggle professor selector bar">
+            </div>
+
+        </div>
+
+        <div class="prof_profile" id="prof_DG">
+            <h1 class="prof_profile_name">
+                Derek Gingerich, Ph.D.
+            </h1>
+            <div class="prof_profile_pic">
+                <img src="https://cdn.uwec.edu/athena/images/5115/Derek-Gingerich-2015-three-four-portrait.jpg" alt="Dr. Gingerich">
+            </div>
+            <div class="prof_profile_tid_bit">
+                <h2>Teaching Interests</h2>
+                <p>Molecular Biology </p>
+                <p>Genetics</p>
+                <p>Plant Physiology</p>
+                <p>Bioinformatics</p>
+            </div>
+            <div class="prof_profile_tid_bit">
+                <h2>Research and Creative Activities</h2>
+                <p>Investigation of BTB/CUL3 E3 ubiquitin-ligase function and evolution in plants</p>
+                <p>Investigation of plant light perception and response pathways</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="grid_container">
+            <div class="grid_item">
+                <a href="our_future.html">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Our Future
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="https://www.uwec.edu/academics/majors-minors/biochemistry-molecular-biology/" target="_blank">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Suggested Courses
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="https://www.uwec.edu/academics/college-arts-sciences/departments-programs/biology/explore-opportunities/scholarships/"
+                    target="_blank">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Scholarships
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="join_us.html">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Join a Research Team
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p id="photo_disclaimer"> All films Copyright © 2018 UW-Eau Claire and the Board of Regents of the University of Wisconsin System .</p>
+        <div class="scrollable_dead_space">&nbsp;</div>
+    </footer>
+    <script>
+        function change_toggle(x) {
+            x.classList.toggle("change");
+
+        }
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function drop_toggle() {
+            document.getElementById("peekaboo_nav_list").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (event.target.matches('.hamburger_icon')) {
+                if (document.getElementsByClassName("peekaboo_content").style.display = "none") {
+                    document.getElementsByClassName("peekaboo_content").style.display = "block";
+                } else {
+                    document.getElementsByClassName("peekaboo_content").style.display = "none";
+                }
+            } else if (!event.target.matches('.hamburger_icon')) {
+                var dropdowns = document.getElementsByClassName("peekaboo-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

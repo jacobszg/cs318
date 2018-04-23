@@ -1,0 +1,6 @@
+* You will need to change the $servername $username and $password in the script_pdo_database_connect.php once you find a server to host this site...
+
+*I want the welcome prof blurb to link to the prof hub... but you need to add footer somehow...probably with another file but things are getting rediculus<(Sp?)
+
+*You need to confirm your organization in some way maybe write it down... (make a map... Visio time!)
+

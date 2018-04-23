@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BMBR|Home</title>
+    <link rel="stylesheet" type="text/css" href="styleUWEC.css">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus|Marcellus+SC" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <h1 id="header_site_name">BMB Research</h1>
+
+        <div class="peekaboo_nav">
+            <div class="hamburger_icon" onclick="change_toggle(this); drop_toggle();">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="peekaboo_nav_list" class="peekaboo_content">
+                <a href="home.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="professors.html">Professors</a>
+                <a href="researcher_hub.html">Researcher Hub</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+        </div>
+        <nav id="wide_nav">
+            <a href="home.html">
+                <span id="you_are_here">Home</span>
+            </a>
+            <a href="events.html">Events</a>
+            <a href="professors.html">Professors</a>
+            <a href="researcher_hub.html">Researcher Hub</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
+        <h4 class="header_research_list">Biochemistry - Molecular Biology - Bioinformatics - Immunology - Genetics</h4>
+    </header>
+    <div class="spacer" id="top_start">
+        &nbsp;
+    </div>
+    <div class="banner" id="home_banner">
+        <div class="quote_box"> &nbsp; </div>
+        <div class="quote">
+            <p>Everything is theoretically impossible, until it is done.</p>
+            <p class="quoted_person">-Robert A. Heinlein</p>
+        </div>
+    </div>
+    <main>
+        <div id="to_top_icon">
+            <a href="#top_start">
+                <img src="Images/arrow-up.png" alt="up_icon">
+            </a>
+        </div>
+        <h1 class="main_title">Research Topics</h1>
+
+        <div class="research_topic">
+            <h2 class="topic_title_left">Topic Ipsum Soapem</h2>
+            <img class="left" src="https://www.photohdx.com/images/2017/04/vintage-blue-steampunk-gears-background.jpg" alt="research image">
+            <p>Proin convallis gravida bibendum. Mauris commodo vel nisl nec tempus. Donec in fermentum elit. In nec luctus
+                sapien. Proin vestibulum tortor cursus, luctus purus ut, commodo urna. Quisque ante quam, vehicula ut finibus
+                at, euismod a urna. Cras in tristique purus, quis malesuada urna. Etiam ut velit eget justo vehicula aliquet.
+                Nam diam mi, pellentesque vitae ultricies suscipit, vehicula quis neque. Sed laoreet id magna ac tincidunt.</p>
+        </div>
+        <div class="research_topic">
+            <h2 class="topic_title_right">Topic Ipsum Lorem Soapem</h2>
+            <img class="right" src="https://www.photohdx.com/images/2017/04/vintage-blue-steampunk-gears-background.jpg" alt="research image">
+            <p>Proin convallis gravida bibendum. Mauris commodo vel nisl nec tempus. Donec in fermentum elit. In nec luctus
+                sapien. Proin vestibulum tortor cursus, luctus purus ut, commodo urna. Quisque ante quam, vehicula ut finibus
+                at, euismod a urna. Cras in tristique purus, quis malesuada urna. Etiam ut velit eget justo vehicula aliquet.
+                Nam diam mi, pellentesque vitae ultricies suscipit, vehicula quis neque. Sed laoreet id magna ac tincidunt.</p>
+        </div>
+        <div class="research_topic">
+            <h2 class="topic_title_left">Topic Lorem Soapem</h2>
+            <img class="left" src="https://www.photohdx.com/images/2017/04/vintage-blue-steampunk-gears-background.jpg" alt="research image">
+            <p>Proin convallis gravida bibendum. Mauris commodo vel nisl nec tempus. Donec in fermentum elit. In nec luctus
+                sapien. Proin vestibulum tortor cursus, luctus purus ut, commodo urna. Quisque ante quam, vehicula ut finibus
+                at, euismod a urna. Cras in tristique purus, quis malesuada urna. Etiam ut velit eget justo vehicula aliquet.
+                Nam diam mi, pellentesque vitae ultricies suscipit, vehicula quis neque. Sed laoreet id magna ac tincidunt.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="grid_container">
+            <div class="grid_item">
+                <a href="our_future.html">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Our Future
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="https://www.uwec.edu/academics/majors-minors/biochemistry-molecular-biology/" target="_blank">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Suggested Courses
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="https://www.uwec.edu/academics/college-arts-sciences/departments-programs/biology/explore-opportunities/scholarships/"
+                    target="_blank">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Scholarships
+                    </div>
+                </a>
+            </div>
+            <div class="grid_item">
+                <a href="join_us.html">
+                    <img src="Images/poa.gif" alt="W3Schools.com">
+                    <div class="box_tag">
+                        Join a Research Team
+                    </div>
+                </a>
+            </div>
+        </div>
+        <p id="photo_disclaimer"> All films Copyright © 2018 UW-Eau Claire and the Board of Regents of the University of Wisconsin System .</p>
+        <div class="scrollable_dead_space">&nbsp;</div>
+    </footer>
+    <script>
+        function change_toggle(x) {
+            x.classList.toggle("change");
+
+        }
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function drop_toggle() {
+            document.getElementById("peekaboo_nav_list").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (event.target.matches('.hamburger_icon')) {
+                if (document.getElementsByClassName("peekaboo_content").style.display = "none") {
+                    document.getElementsByClassName("peekaboo_content").style.display = "block";
+                } else {
+                    document.getElementsByClassName("peekaboo_content").style.display = "none";
+                }
+            } else if (!event.target.matches('.hamburger_icon')) {
+                var dropdowns = document.getElementsByClassName("peekaboo-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
