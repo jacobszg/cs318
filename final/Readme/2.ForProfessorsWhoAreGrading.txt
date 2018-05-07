@@ -1,0 +1,6 @@
+Hello Chris Johnson and Alex Cobian,
+
+	You found the ReadMe directory and this helpful text in the mess known as the BMBR website... nice work! I used XAMPP for development, but you can create my database anywhere with the SQL script provided in the SQL directory (found at the surface of final). You can set up access to the database in the db_connection.php script (also found at the surface of final). You can contact me at zach.json@gmail.com ('cause I pry ain't check'n my school email as often as I once did...)
+
+Thanks 
+Zach Jacobson 

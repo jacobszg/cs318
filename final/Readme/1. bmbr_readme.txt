@@ -1,0 +1,29 @@
+
+Final faculty review 05/04/2018 (may the fourth be with you)
+The following will be addressed sometime in the summer of 2018... after graduation and after I officiate my little sisters wedding... maybe after I take a vacation... I will also be trying to get this going up and live
+
+Instead of name delete_R use name = delete_(primaryKey); when you autogenerate the delete resource form... Server side....
+
+About us page (Rather than "suggested courses at the bottom...)
+
+Professors nav bad?? (faculty) <-- Want the word Faculty rather than Professor...
+
+switch research topics with research "news" (lab suite news/ molecular suite new )
+
+FAQ instead of pdf have a link field for prof (so they can add a URL that is linkable for user)
+
+switch prof login with faculty login 
+
+List 
+Get rid of Biochemistry... left with...
+molec, genetics, bioinf, immune
+
+Consider a Biology Degeree (not BMB)... link appropriatly
+
+Get rid of "suggested Courses"
+
+Consider major / scholarships / faqlink [hard code this q and a. get email from gingerich]
+
+get rid of quotes and add tab name as title... for banner, no shouting "Welcome!"
+
+I should also address the large BUGS.doc in this directory as well

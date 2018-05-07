@@ -32,7 +32,6 @@ body {
 	color:var(--accent-color);
 	font-size:35pt;
 	display:block;
-	clear:both;
 	text-shadow: 0 3px 10px var(--main-color);
 	border-radius:25px;
 }

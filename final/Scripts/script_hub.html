@@ -1,0 +1,46 @@
+<script src="Scripts/jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			var current = "default";
+			var prev = "default";
+			
+			$(".tab").on("click",function(){
+				
+				if ((current!="default")){
+					$("#"+current).css("display", "none");
+					$("#"+prev).css("cursor", "pointer");
+					$("#"+prev).css("font-size", "16pt");
+					$("#"+prev).css("text-decoration", "none");
+					$("#"+prev).animate({width: '80%'});
+				}
+				
+				current=$(this).attr("id");
+				
+				if ((current==prev)){
+				
+					current = current.replace("tab","display");
+					$("#"+current).css("display", "none");
+					$("#"+prev).css("cursor", "pointer");
+					$("#"+prev).css("font-size", "18pt");
+					$("#"+prev).css("text-decoration", "none");
+					$("#"+prev).animate({width: '80%'});
+					prev = "default";
+				}else{
+					$("#"+current).css("cursor", "default");
+					$("#"+current).css("font-size", "25pt");
+					$("#"+current).css("text-decoration", "underline");
+					$("#"+current).animate({width: '97%'});
+					prev=current;
+					current = current.replace("tab","display");
+					$("#"+current).css("display", "block");
+				}
+				
+				
+				
+				
+				document.querySelector("#"+current+" h1").scrollIntoView({ behavior: 'smooth' });
+
+			});
+		});
+    </script>
